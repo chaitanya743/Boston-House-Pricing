@@ -47,7 +47,7 @@ def predict():
         final_input = scaler.transform(np.array(data).reshape(1, -1))
 
         # Make prediction using the loaded model
-        output = newregmodel.predict(final_input)[0]
+        output = new_regmodel.predict(final_input)[0]
 
         return render_template("home.html", prediction_text="The House price prediction is {}".format(output))
 
