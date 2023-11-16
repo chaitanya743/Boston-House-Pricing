@@ -5,4 +5,4 @@ scikit-learn
 tabulate
 xgboost
 lightgbm
-gunicorn
+gunicorn==21.2.0
