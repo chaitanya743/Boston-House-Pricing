@@ -1,3 +1,4 @@
+Flask
 pandas
 numpy
 scikit-learn
@@ -5,6 +6,4 @@ tensorflow
 tabulate
 xgboost
 lightgbm
-flask
-pickle
 gunicorn
